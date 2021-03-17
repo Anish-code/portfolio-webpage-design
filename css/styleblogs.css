@@ -193,8 +193,8 @@ header.form-control{
   background: var(--bggradient1);
 }
 .posts{
-  text-align: center;
-      margin-left: 60px;
+    text-align: center;
+    margin-left: -275px;
     margin-top: 60px;
 }
 .image-contain{
@@ -202,11 +202,45 @@ header.form-control{
   height: 400px;
 }
 .post-tittle{
-         background: rgb(49 43 43 / 29%);
-    margin-right: 42px;
-    margin-top: -30px;
+        background: rgb(49 43 43 / 29%);
+    margin-right: -255px;
+    margin-top: -40px;
     color: white;
     position: relative;
-    margin-left: 42px;
 }
 
+
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+..
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+.user-info{
+      padding-bottom: 18px;
+}
