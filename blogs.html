@@ -131,7 +131,7 @@
                         <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Marry Andrews</span><span class="date text-black-50">Shared publicly - Jan 2020</span></div>
                     </div>
                     <div class="image-contain">
-					<img src="./assets/ai.jpg" style=" width: 975px;height: 500px;">
+					<img src="./assets/ai.jpg" style=" width: 710px;height: 500px;">
 				</div>
 				<div class="post-tittle">
 					
@@ -144,7 +144,7 @@
                 </div>
                 <div class="bg-white">
                     <div class="d-flex flex-row fs-12">
-                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
+                        <div class="like p-2 cursor" ><i class="fa fa-heart" id="colo" onclick="myfunction1()"></i><span class="ml-1">Love</span></div>
                         <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">
                         	<button onclick="myFunction()" style="background: none; border: none;">Comments</button></span></div>
                         <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
@@ -152,12 +152,53 @@
                 </div>
                 <div class="bg-light p-2" id="myDIV">
                     <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
-                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button>
+                    </div>
                 </div>
             </div>
         </div>
 			</div>
+
+
+      <!--  Second post -->
+        <div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-8">
+            <div class="d-flex flex-column comment-section">
+                <div class="bg-white p-2">
+                    <div class="d-flex flex-row user-info"><img class="rounded-circle" src="./assets/5.jpg" width="40" height="40">
+                        <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Pricilla Preez</span><span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                    </div>
+                    <div class="image-contain">
+          <img src="./assets/virtual.jpg" style=" width: 710px;height: 500px;">
+        </div>
+        <div class="post-tittle">
+          
+          <h1>Virtual Reality</h1>
+          <p class="pt-4">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+          </p>
+        </div>
+                   
+                </div>
+                <div class="bg-white">
+                    <div class="d-flex flex-row fs-12">
+                        <div class="like p-2 cursor" ><i class="fa fa-heart" id="colo2" onclick="myfunction_seclov()"></i><span class="ml-1">Love</span></div>
+                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">
+                          <button onclick="myFunction_secomm()" style="background: none; border: none;">Comments</button></span></div>
+                        <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
+                    </div>
+                </div>
+                <div class="bg-light p-2" id="myDIV2">
+                    <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="./assets/5.jpg" width="40" height="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
 		</div>
+  </div>
 	</section>
 </main>
 <script>
@@ -168,6 +209,32 @@ function myFunction() {
   } else {
     x.style.display = "none";
   }
+}
+function myfunction1() {
+if(document.getElementById("colo").style.color != "red"){
+document.getElementById("colo").style.color = "red"
+}
+else{
+document.getElementById("colo").style.color = "black"
+}
+}
+</script>
+<script>
+function myFunction_secomm() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myfunction_seclov() {
+if(document.getElementById("colo2").style.color != "red"){
+document.getElementById("colo2").style.color = "red"
+}
+else{
+document.getElementById("colo2").style.color = "black"
+}
 }
 </script>
 
