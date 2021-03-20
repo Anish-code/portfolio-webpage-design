@@ -225,7 +225,7 @@ header.form-control{
 .comment-text {
     font-size: 12px
 }
-..
+
 .fs-12 {
     font-size: 12px
 }
@@ -252,4 +252,72 @@ header.form-control{
 .user-info{
       padding-bottom: 18px;
 }
+
+.aboutme{
+  margin-left: -39px;
+width: fit-content;
+height: 322px;
+margin-top: 262px;
+}
+.imag{
+  height: 400px;
+  width: 400px;
+  margin-top: -260px;
+  margin-left: 200px;
+}
+.about-title{
+  margin-top: -373px;
+  color: white;
+  margin-right: -520px;
+}
+
+
+
+
+
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+  margin-top: 60px;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+  height: 35px;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.89;
+  z-index: 9999;
+  transition: all 1.25s ease;
+}
+
 
