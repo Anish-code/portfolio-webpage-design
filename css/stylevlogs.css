@@ -138,14 +138,15 @@ header.form-control{
     white-space: nowrap;
     margin-left: 60px
   }
-  .blog1{
+  .vlog1{
     margin-left: -204px;
     width: 100px;
   }
   .contain-title1{
-        color: white;
+         color: white;
     margin-top: -150px;
-    margin-left: -192px;
+    margin-left: -110px;
+    position: relative;
   }
 .btn .btn-dark{
       background: rgb(8 8 8 / 29%);
@@ -155,27 +156,27 @@ header.form-control{
 .contain-title1 .btn .btn-dark:hoover{
   background: blue;
 }
-.blog2{
+.vlog2{
     margin-left: -39px;
     width: fit-content;
     height: 318px;
 }
-.blog3{
+.vlog3{
       margin-left: -39px;
     width: fit-content;
     height: 322px;
     margin-top: 262px;
 }
 
-.image1{
-   width: fit-content;
+.video1{
+      width: 750px;
     height: 600px;
 }
-.image2{
+.video2{
   height: 320px;
     width: 686px;
 }
-.image3{
+.video3{
   height: 300px;
     width: 686px;
     margin-top: -224px;
@@ -184,14 +185,17 @@ header.form-control{
       margin-top: -385px;
     color: white;
     margin-right: -376px;
+    position: relative;
 }
 
 .contain-title2{
   color: white;
     margin-top: -190px;
-    margin-right: -370px
+    margin-right: -370px;
+    position: relative;
 
 }
+
 
 /* section1   */
 
@@ -204,7 +208,7 @@ header.form-control{
     margin-left: -275px;
     margin-top: 60px;
 }
-.image-contain{
+.video-contain{
   width: 100%;
   height: 400px;
 }
